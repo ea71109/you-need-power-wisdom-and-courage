@@ -35,7 +35,7 @@ public class TriangleNumberCalculator {
 
     public double divide(int n, int m)
     {
-        // treating m as the denominator
+        // treating m as the denominator.
         if (m == 0)
         {
             throw new IllegalArgumentException("Can't divide by zero.");
